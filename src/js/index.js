@@ -1,11 +1,6 @@
-// your code
+import { handleSubmitForm, handleClearTable } from './handlers'
+import { analyzeText } from './analyze'
 
-/**
- *
- * @param {string} text
- */
-function getFirstLetter(text) {
-  return text[0];
-}
-
-console.log(getFirstLetter("qwerty"));
+handleSubmitForm()
+handleClearTable()
+analyzeText()
